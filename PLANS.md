@@ -4,41 +4,35 @@
 
 Status: Complete
 
-- Establish persistent repository instructions.
-- Document usage limits, project routing, state, and handoffs.
-- Initialize version control and open the repository in Codex.
+- Establish durable instructions, goals, operating policy, and handoff structure.
 
 ## Phase 2 — Project registration
 
 Status: Complete
 
-- Confirmed that Codex lists `The Master` as a local project.
-- Registered local project ID: `6ade139b-4100-4cce-a9e3-56b0096213ae`.
-- Start future orchestration chats from this project.
+- Connect the coordinator to its available project environment.
 
 ## Phase 3 — Registry maintenance
 
 Status: Ongoing
 
-- Reconcile known projects and active threads.
-- Keep one compact row per active or blocked workstream.
-- Remove stale entries only after confirming the work is complete or intentionally abandoned.
+- Reconcile known projects and active work.
+- Keep one concise row per workstream.
+- Preserve material decisions and next actions.
 
 ## Phase 4 — Orchestration improvements
 
-Status: Complete — lightweight policy implementation
+Status: Complete
 
-- Added model and reasoning-effort routing for token optimization.
-- Added a task lifecycle, compact evidence packets, soft budgets, stop conditions, and worker-health checks.
-- Expanded the registry and handoff template to preserve lifecycle, model, budget, evidence, and next action.
+- Add model-effort routing.
+- Add task lifecycle and evidence packets.
+- Add soft budgets, stop conditions, and worker-health checks.
+- Add safe cleanup rules.
 
 ## Phase 5 — Measurement and automation
 
 Status: Planned
 
-- Add lightweight validation for registry and handoff completeness.
-- Measure which model/effort tier succeeds for each recurring task category.
-- Add a machine-readable registry only if the Markdown workflow becomes unreliable.
-- Review the 10-minute heartbeat interval and thresholds after observing real usage.
-
-
+- Validate registry and handoff completeness.
+- Measure which routing tier works best for recurring tasks.
+- Improve bounded monitoring and recovery.
