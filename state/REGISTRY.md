@@ -12,7 +12,8 @@ This public registry omits private paths, chat identifiers, live usage values, a
 | Artificial Intelligence coursework | running | P1 | Balanced academic tier | Keep each assignment isolated and identify the current deliverable |
 | Power BI project | review complete | P2 | Efficient | Confirm the source artifact and validate layout and metrics |
 | Ontology project | research complete | P2 | Efficient research tier | Export metadata for core tables; use read-only profiling only if necessary |
-| Historical pipeline and web work | unclassified | P3 | Efficient triage | Decide whether to register or archive the remaining projectless work |
+| End-to-End Cloud Data Pipeline | inactive/retained | P3 | Efficient triage | Verify the repository and interview deck only when selected for portfolio work |
+| WEB JARMAR | historical | P3 | None | Preserve local artifacts; keep historical chats archived |
 
 ## Registry rules
 

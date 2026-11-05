@@ -31,3 +31,7 @@ Whenever The Master creates a successor chat or project worker, pass a compact s
 ## Documentation language
 
 English is the canonical language for repository documentation, durable state, handoffs, evidence packets, and coordination prompts. Preserve non-English text only as clearly identified source evidence or user-provided material.
+
+## Usage-first dispatch
+
+Check live account usage before substantial dispatch. Default to one worker, distinguish account quota from context capacity, and roll long workers into successor chats through compact handoffs. Compaction reduces repeated context but does not recover usage already consumed.
