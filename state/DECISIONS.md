@@ -35,3 +35,7 @@ English is the canonical language for repository documentation, durable state, h
 ## Usage-first dispatch
 
 Check live account usage before substantial dispatch. Default to one worker, distinguish account quota from context capacity, and roll long workers into successor chats through compact handoffs. Compaction reduces repeated context but does not recover usage already consumed.
+
+## Ponytail installation boundary
+
+Install Ponytail globally as a validated skill only. Do not install its plugin, lifecycle hooks, band, or board. Use the skill for implementation, refactoring, dependency selection, and code review where smaller complete changes can reduce work. Do not load it for coordination, simple documentation, factual questions, or routine status reporting.
