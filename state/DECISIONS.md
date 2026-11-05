@@ -23,3 +23,11 @@ The user may authorize a temporary usage-limit override for a specific account w
 ## Public documentation boundary
 
 Keep operational methodology public when useful, but omit local paths, project and chat identifiers, live usage values, credentials, and private project evidence.
+
+## Chat context continuity
+
+Whenever The Master creates a successor chat or project worker, pass a compact structured handoff from the relevant prior chat. Apply this to The Master itself and to every coordinated project. Transfer verified state, decisions, artifacts, blockers, and next action; do not transfer full transcripts or unrelated context.
+
+## Documentation language
+
+English is the canonical language for repository documentation, durable state, handoffs, evidence packets, and coordination prompts. Preserve non-English text only as clearly identified source evidence or user-provided material.

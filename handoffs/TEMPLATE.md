@@ -17,6 +17,15 @@
   - Key facts:
   - Evidence still missing:
 
+## Compact predecessor context
+
+- Source chat or worker (private reference if needed):
+- Prior objective and scope:
+- Decisions still in force:
+- Relevant verified facts:
+- Superseded or excluded context:
+- Continuity confidence:
+
 ## Decisions and constraints
 
 - Decision:
