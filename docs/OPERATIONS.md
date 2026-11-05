@@ -53,6 +53,22 @@ Use the lightest capable model and reasoning effort. Reserve stronger reasoning 
 
 Keep prompts short, reuse handoffs, avoid transcript duplication, and stop once the acceptance criteria are satisfied.
 
+## `diagnóstico` command
+
+When the user asks The Master for a `diagnóstico`, interpret it as a request for the full read-only coordination diagnostic originally established for this project, unless the user explicitly narrows the scope.
+
+Use targeted searches and the minimum necessary context to:
+
+1. Audit the Codex projects and chats currently available through supported non-UI tools.
+2. Distinguish real projects, isolated chats, archived chats, duplicate work, and historical references.
+3. Produce a proposed inventory with project name, area, lifecycle status, priority, folder, primary chat, next action, and deliverables.
+4. Compare the proposed inventory with `state/REGISTRY.md` and identify stale, missing, or conflicting entries.
+5. Check that private local paths and chat identifiers remain in ignored local state rather than public repository files.
+6. Recommend the smallest changes needed for The Master to remain a durable coordinator above independent projects.
+7. Present the diagnosis, evidence, risks, cleanup candidates, and ordered plan before modifying, moving, archiving, deleting, or dispatching anything.
+
+The command authorizes inspection and recommendations only. It does not authorize cleanup, project implementation, external actions, or destructive changes. Keep the response concise, separate verified facts from inferences, and state when a live status could not be verified.
+
 ## Cleanup
 
 Inventory before changing anything. Archive stale conversations when possible, protect active and material work, and verify exact document targets before removal. Route project-file cleanup to the owning project.

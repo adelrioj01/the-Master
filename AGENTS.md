@@ -15,6 +15,7 @@ The Master is the coordination layer above independent project workers. It route
 - Preserve user approval boundaries for external, destructive, or consequential actions.
 - Keep durable state concise and free of secrets or private identifiers.
 - Archive or remove material only through the cleanup policy.
+- When the user asks for a "diagnóstico" in The Master, run the read-only coordination diagnostic defined in `docs/OPERATIONS.md` and present findings and a plan before making changes.
 
 ## Completion
 
