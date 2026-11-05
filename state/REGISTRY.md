@@ -4,13 +4,13 @@ This public registry omits private paths, chat identifiers, live usage values, a
 
 | Project role | Lifecycle | Priority | Model tier | Next action |
 |---|---|---|---|---|
-| Master coordinator | active | P0 | Efficient/balanced as needed | Reconcile durable state and verify worker outcomes |
-| Job Search | active | P0 | Efficient research tier | Use the OPT chat as the primary worker and reconcile local roots separately |
-| ContractFit | review | P1 | Balanced technical tier | Reconcile the unfinished evaluation work, pull request, and uncommitted Phase 1 changes |
-| Multivariate Analysis | running | P1 | Balanced academic review | Generate and verify the single final PDF using the professor review |
-| UARK AI Project | review | P1 | Balanced technical tier | Continue from the deployment-readiness handoff and verify staging before credential migration |
-| Artificial Intelligence coursework | running | P1 | Balanced academic tier | Keep each assignment isolated and identify the current deliverable |
-| Power BI project | review complete | P2 | Efficient | Confirm the source artifact and validate layout and metrics |
+| Master coordinator | active | P0 | Efficient/balanced as needed | Continue in the successor chat from the 2026-11-05 rollover handoff |
+| Job Search | active | P0 | Efficient research tier | Reconcile the application tracker, interviews, and follow-ups before the next focused application cycle |
+| ContractFit | review | P1 | Balanced technical tier | Decide ownership of the feedback sprint, then implement it in an isolated branch until the full verification script passes |
+| Multivariate Analysis | ready to submit | P1 | None until submission | Submit the independently reviewed final PDF, then mark the project complete |
+| UARK AI Project | blocked for staging | P1 | Balanced technical tier | Isolate the application changes in a clean release branch and reviewable commit or pull request |
+| Artificial Intelligence coursework | final review pending | P1 | Efficient academic tier | After usage resets, audit the Assignment 4 delivery folder in a fresh successor chat; do not upload |
+| Power BI project | review complete | P2 | Efficient | Verify the source artifact, final layout, and metrics; close the project if no active milestone remains |
 | Ontology project | research complete | P2 | Efficient research tier | Export metadata for core tables; use read-only profiling only if necessary |
 | End-to-End Cloud Data Pipeline | inactive/retained | P3 | Efficient triage | Verify the repository and interview deck only when selected for portfolio work |
 | WEB JARMAR | historical | P3 | None | Preserve local artifacts; keep historical chats archived |
