@@ -53,6 +53,12 @@ Use the lightest capable model and reasoning effort. Reserve stronger reasoning 
 
 Keep prompts short, reuse handoffs, avoid transcript duplication, and stop once the acceptance criteria are satisfied.
 
+## Knowledge-graph routing
+
+Use direct name, pattern, path, and targeted file searches before Graphify. Use Graphify only when persistent architectural relationships, cross-file paths, communities, or a corpus too complex for focused inspection materially improve the answer.
+
+Before querying an existing graph, verify its recorded root and source revision against the current project. Update the graph when it is stale. If detection reports that the corpus fits comfortably in one context window or does not need a graph, prefer direct inspection unless the question specifically requires relationship traversal. Do not enable Graphify hooks, watch mode, or MCP service by default.
+
 ## `diagnóstico` command
 
 When the user asks The Master for a `diagnóstico`, interpret it as a request for the full read-only coordination diagnostic originally established for this project, unless the user explicitly narrows the scope.
