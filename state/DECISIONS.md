@@ -51,3 +51,7 @@ Use direct search before Graphify. Query Graphify only for relationship-heavy or
 ## Ponytail installation boundary
 
 Install Ponytail globally as a validated skill only. Do not install its plugin, lifecycle hooks, band, or board. Use the skill for implementation, refactoring, dependency selection, and code review where smaller complete changes can reduce work. Do not load it for coordination, simple documentation, factual questions, or routine status reporting.
+
+## ContractFit frontend skill boundary
+
+Do not install an additional frontend skill for the current ContractFit feedback milestone. The active dashboard is dependency-free HTML, CSS, and JavaScript, so the existing repository rules and Ponytail are sufficient. If a later milestone requires a substantial visual redesign, evaluate Anthropic's `frontend-design` skill in isolation and install only its instruction files after review; do not add companion tooling, hooks, dependencies, remote instruction fetching, or broader plugin permissions by default.

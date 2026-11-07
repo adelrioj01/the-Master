@@ -4,9 +4,9 @@ This public registry omits private paths, chat identifiers, live usage values, a
 
 | Project role | Lifecycle | Priority | Model tier | Next action |
 |---|---|---|---|---|
-| Master coordinator | active | P0 | Efficient/balanced as needed | Continue in the successor chat from the 2026-11-05 rollover handoff |
-| Job Search | active | P0 | Efficient research tier | Reconcile the application tracker, interviews, and follow-ups before the next focused application cycle |
-| ContractFit | review | P1 | Balanced technical tier | Ownership boundaries and feedback ADR 0018 are verified; assign one bounded backend worker next, then frontend, integration/QA, and final full verification |
+| Master coordinator | active | P0 | Efficient/balanced as needed | Continue in the verified 2026-11-06 successor chat; preserve compact handoffs and archive superseded coordination chats after state transfer |
+| Job Search | ready | P0 | Efficient tier | Reconcile existing application statuses, confirm the linked resume is current, and provide a job posting or search scope for the first qualification cycle |
+| ContractFit | review | P1 | Balanced technical tier | Frontend-skill research found no installation justified for the current static dashboard; assign one bounded backend worker next, then frontend, integration/QA, and final full verification |
 | Multivariate Analysis | ready to submit | P1 | None until submission | Submit the independently reviewed final PDF, then mark the project complete |
 | UARK AI Project | blocked for staging | P1 | Balanced technical tier | Isolate the application changes in a clean release branch and reviewable commit or pull request |
 | Artificial Intelligence coursework | ready to submit | P1 | None until submission | Submit the verified Assignment 4 deliverable folder contents; do not modify or upload through The Master |

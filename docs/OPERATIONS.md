@@ -67,11 +67,12 @@ Use targeted searches and the minimum necessary context to:
 
 1. Audit the Codex projects and chats currently available through supported non-UI tools.
 2. Distinguish real projects, isolated chats, archived chats, duplicate work, and historical references.
-3. Produce a proposed inventory with project name, area, lifecycle status, priority, folder, primary chat, next action, and deliverables.
-4. Compare the proposed inventory with `state/REGISTRY.md` and identify stale, missing, or conflicting entries.
-5. Check that private local paths and chat identifiers remain in ignored local state rather than public repository files.
-6. Recommend the smallest changes needed for The Master to remain a durable coordinator above independent projects.
-7. Present the diagnosis, evidence, risks, cleanup candidates, and ordered plan before modifying, moving, archiving, deleting, or dispatching anything.
+3. Review chats actually used during the current usage window and identify likely excessive-context or excessive-usage contributors using observable proxies: active turn volume, long or mixed-purpose history processed in recent turns, repeated resumptions or context compactions, repeated broad audits, usage-limit failures, subagent activity, and tool-heavy loops. Do not label dormant chats as current consumers merely because they are long. Codex does not expose reliable per-chat token percentages, so distinguish direct evidence from inference.
+4. Produce a proposed inventory with project name, area, lifecycle status, priority, folder, primary chat, next action, and deliverables.
+5. Compare the proposed inventory with `state/REGISTRY.md` and identify stale, missing, or conflicting entries.
+6. Check that private local paths and chat identifiers remain in ignored local state rather than public repository files.
+7. Recommend the smallest changes needed for The Master to remain a durable coordinator above independent projects.
+8. Present the diagnosis, evidence, risks, a chat-efficiency classification (`healthy`, `watch`, `rollover`, or `archive candidate`), cleanup candidates, and ordered plan before modifying, moving, archiving, deleting, or dispatching anything.
 
 The command authorizes inspection and recommendations only. It does not authorize cleanup, project implementation, external actions, or destructive changes. Keep the response concise, separate verified facts from inferences, and state when a live status could not be verified.
 
